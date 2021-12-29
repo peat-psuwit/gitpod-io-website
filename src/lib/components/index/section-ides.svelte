@@ -32,8 +32,8 @@
     <div class="max-w-5xl mx-auto">
       <Toggle
         class="mt-x-small mb-macro"
-        labelLeft="Desktop"
-        labelRight="Browser"
+        labelLeft="Browser"
+        labelRight="Desktop"
         on:change={(e) => {
           ideType = "desktop";
           // @ts-ignore
